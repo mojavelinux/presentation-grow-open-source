@@ -1,0 +1,53 @@
+@import './fonts.css'
+@import 'normalizecss/normalize.css'
+@import './bespoke-base'
+
+body
+  font-size: 16px
+
+article.deck
+  color: rgba(0, 0, 0, 0.8)
+  background-color: #000
+
+section
+  background-color: #fff
+  &.poster
+    background-color: #000
+
+h1, h2
+  font-size: 4em
+  font-weight: 400
+  font-family: "Love Ya Like A Sister"
+  text-align: center
+
+h1
+  span.primary, span.secondary
+    display: block
+  span.secondary
+    font-size: 0.55em
+
+p.author
+  font-family: "Work Sans"
+  font-weight: 300
+  margin: 0
+
+h2 strong
+  font-weight: 400
+
+h2.stars, h2 strong
+  color: chocolate
+
+blockquote
+  font-family: "Work Sans"
+  font-weight: 300
+  font-size: 1.75em
+  line-height: 1.6
+  &::before
+    content: "“"
+    font-size: 2.5em
+    font-weight: 500
+    float: left
+    margin-top: 0.25em
+    margin-left: -.45em
+    line-height: 0
+    width: 0
