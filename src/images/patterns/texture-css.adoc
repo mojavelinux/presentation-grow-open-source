@@ -1,0 +1,13 @@
+.Subtle Dark Vertical
+[source,css]
+----
+background-color: #a2571e;
+background-image: url(../images/patterns/subtle-dark-vertical.png);
+----
+
+.Satin Weave
+[source,css]
+----
+background-color: #a2571e;
+background-image: url(../images/patterns/satin-weave.png);
+----

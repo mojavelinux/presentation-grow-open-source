@@ -12,7 +12,19 @@ article.deck
 section
   background-color: #fff
   &.poster
-    background-color: #000
+    &:not(.invert)
+      background-color: #000
+    > img
+      max-width: 100%
+      max-height: 100%
+  // fix scaling in Firefox
+  &.poster
+    display: block
+    > img
+      position: relative
+      top: 50%
+      left: 50%
+      transform: translateX(-50%) translateY(-50%)
 
 h1, h2
   font-size: 4em
@@ -40,9 +52,11 @@ h2.stars, h2 strong
 blockquote
   font-family: "Work Sans"
   font-weight: 300
-  font-size: 1.75em
-  line-height: 1.6
-  &::before
+  p
+    font-size: 1.75em
+    line-height: 1.6
+    margin: 0
+  p:first-of-type::before
     content: "“"
     font-size: 2.5em
     font-weight: 500
@@ -51,3 +65,29 @@ blockquote
     margin-left: -.45em
     line-height: 0
     width: 0
+  footer
+    float: right;
+    padding-right: 1.5em
+    position: relative
+    top: 1em
+    &::before
+      content: "— "
+
+section.title::after
+  content: ''
+  display: block
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  background-image: url(../images/oss-virtuous-cycle-bg.svg)
+  background-size: cover
+  background-position: center center
+  opacity: 0.1
+
+section.recap
+  color: #efeeeb
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5)
+  background-color: #a2571e
+  background-image: url(../images/patterns/satin-weave.png)

@@ -4,6 +4,7 @@
 * made revisions to Bartosz story to make it more conversational
 * review commented lines (put asterisk in front of candidate dialog for inclusion)
 * Faces, faces, faces
+* builds resilience in community
 
 * Build the story you want your users to tell.
 * slide for "Be transparent"
