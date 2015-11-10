@@ -26,6 +26,8 @@
 . 16:30
 ////
 = Everything You Need to Know to Grow Open Source
+:docinfo: private-head
+:nofooter:
 ifdef::env-browser[:toc: macro]
 
 ifdef::backend-pdf[]
