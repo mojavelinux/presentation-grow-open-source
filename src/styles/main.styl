@@ -2,6 +2,29 @@
 @import 'normalizecss/normalize.css'
 @import './bespoke-base'
 
+//$color-camel-old = rgb(175, 80, 20)
+//$color-bone-old = #efeeeb
+
+$color-cyan-1 = #8ac8d9
+$color-cyan-2 = #22708b
+$color-cyan-3 = #1c363f
+$color-red-1 = #e61a2b
+$color-red-2 = #a6121f
+$color-red-3 = #5a0a11
+$color-red-4 = #40070c
+$color-purple-1 = #53378B
+$color-purple-2 = #402772
+$color-camel-1 = #ee802c
+$color-camel-2 = #b94719
+$color-camel-3 = #af2d18
+$color-camel-4 = #8d2702
+$color-bone-1 = #ebf2f7
+$color-bone-2 = #d7e5f0
+$color-bone-3 = #ccd6d9
+$color-gray-1 = #d9d9d9
+$color-gray-2 = #848b8d
+$color-gray-3 = #54595a
+
 body
   font-size: 16px
 
@@ -25,18 +48,16 @@ section
       top: 50%
       left: 50%
       transform: translateX(-50%) translateY(-50%)
+  &.motion.bespoke-active img
+    transition: all 8s ease-in-out
+    max-width: 110%
+    max-height: 110%
 
 h1, h2
   font-size: 4em
   font-weight: 400
   font-family: "Love Ya Like A Sister"
   text-align: center
-
-h1
-  span.primary, span.secondary
-    display: block
-  span.secondary
-    font-size: 0.55em
 
 p.author
   font-family: "Work Sans"
@@ -46,18 +67,20 @@ p.author
 h2 strong
   font-weight: 400
 
-h2.stars, h2 strong
-  color: chocolate
+h2.stars
+  color: $color-camel-2
 
 blockquote
   font-family: "Work Sans"
   font-weight: 300
+  margin: 0 3rem
   p
     font-size: 1.75em
     line-height: 1.6
     margin: 0
   p:first-of-type::before
     content: "“"
+    color: $color-red-3
     font-size: 2.5em
     font-weight: 500
     float: left
@@ -66,6 +89,7 @@ blockquote
     line-height: 0
     width: 0
   footer
+    color: $color-camel-4
     float: right;
     padding-right: 1.5em
     position: relative
@@ -73,21 +97,51 @@ blockquote
     &::before
       content: "— "
 
-section.title::after
-  content: ''
-  display: block
-  position: absolute
-  top: 0
-  right: 0
-  bottom: 0
-  left: 0
-  background-image: url(../images/oss-virtuous-cycle-bg.svg)
-  background-size: cover
-  background-position: center center
-  opacity: 0.1
+section.title
+  h1
+    margin: 1.25em 0
+    span.primary, span.secondary
+      display: block
+    span.secondary
+      font-size: 0.55em
+  &::after
+    content: ''
+    display: block
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    background-image: url(../images/oss-virtuous-cycle-bg.svg)
+    background-size: cover
+    background-position: center center
+    opacity: 0.1
+
+section.build
+  background-color: $color-red-3
+  color: $color-bone-2
+
+section.passion
+  background-color: $color-purple-2
+  color: $color-bone-2
+  strong
+    color: $color-cyan-1
 
 section.recap
-  color: #efeeeb
-  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5)
-  background-color: #a2571e
+  color: $color-bone-1
+  //text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5)
+  //text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.75)
+  text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5)
+  background-color: $color-camel-2
+  //background-color: $color-camel-4
   background-image: url(../images/patterns/satin-weave.png)
+
+section.fin h2
+  margin: 0
+  color: $color-bone-1
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.75)
+  position: absolute
+  z-index: 1
+  top: 50%
+  right: 15%
+  font-size: 1.5em
