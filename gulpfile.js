@@ -54,7 +54,7 @@ gulp.task('css', ['clean:css'], function() {
 });
 
 gulp.task('images', ['clean:images'], function() {
-  return gulp.src('src/images/**/*')
+  return gulp.src(['src/images/**/*', '!src/images/originals/**', '!src/images/originals'])
     .pipe(gulp.dest('dist/images'))
     .pipe(connect.reload());
 });
