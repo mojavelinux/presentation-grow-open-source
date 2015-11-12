@@ -47,13 +47,11 @@ endif::[]
 
 == Introduction
 
-//!SLIDE title
+//[slide#title]
 Open Source is a no-brainer (man).
 
-//!SLIDE brain-creativity
+//[slide#brain-power]
 Actually, that's false.
-//! It requires quite a bit of brain power.
-//! Creating Open Source software and building a community around it is hard and doesn't come for free.
 Doing open source well and growing a successful ecosystem around it requires a lot of brain power.
 It's hard and it doesn't come for free.
 Responding to questions.
@@ -72,12 +70,12 @@ So how do you do it?
 How do you give your project that spark?
 How do you make it grow?
 
-//SLIDE! Arquillian invasion backdrop
+//[slide#arquillian-invasion]
 I've cultivated several very successful open source communities on sparse budgets.
-Each experience has taught me lessons I want to share with you today.
+Each experience has taught me lessons I am sharing with you today.
 I've waited a long time to tell this story.
-I hope you'll be able to use this advice to make your community building efforts wildly successful and stand out from the crowd.
-//After all, not many companies do (OSS well).
+I hope you'll be able to use this advice to make your community building efforts wildly successful and to stand out from the crowd.
+//because not many companies do OSS well.
 
 //Above all, people are attracted to ”a shared purpose that is clearly understood”, so let's start there.
 //That's what gets people out of bed in the morning.
@@ -88,15 +86,17 @@ I hope you'll be able to use this advice to make your community building efforts
 == Have a purpose
 // criteria for success?
 
+//[slide#why]
+Perhaps it goes without saying, but if you want to grow, you need to have an effort that's worth joining.
+
 How many projects have you come across that make you think, “Uh, what the heck is this for?”
 _Don't be that project._
 //What's your purpose?
 Find your purpose.
 Why does your project exist?
 
-//!SLIDE Raison d'être bottle
-Perhaps it goes without saying, but if you want to grow, you need to have an effort that's worth joining.
-And people need to know where you're headed.
+//[slide#raison-d-etre-label]
+People need to know where you're headed.
 //A purpose.
 People need a change they can believe in.
 A sense of purpose.
@@ -106,13 +106,13 @@ They want to be able to achieve something bigger than what they can achieve by t
 (And escape senseless office politics for a while).
 //Community creates for them a shared sense of identity & purpose where they can share value with one another.
 
-//!SLIDE A*M*P
+//[slide#amp]
 Open Source is created by people.
 To grow Open Source, you need to understand what drives people.
 You need to AMP them up.
 In his book Drive, Dan Pink identifies three key factors that drive people.
 
-//!SLIDE Autonomy - Mastery - Purpose
+//[slide#amp-2]
 [verse]
 AMP = Autonomy, mastery, purpose.
 
@@ -131,7 +131,7 @@ Your mission becomes a story; _your_ story.
 It shapes the culture of your community.
 It serves as a filter to help you decide what to do, what not to do and who your audience even is.
 
-//!SLIDE Dogfish Head slogan
+//[slide#dogfish-head-slogan]
 Dogfish Head, for example, has a great tagline:
 
 ""
@@ -147,6 +147,7 @@ Don't let people just pass you by.
 Get noticed.
 //Without a purpose and a future, you have no project; people abandon a sinking ship
 //It also helps you weather changes and shifts.
+//[slide#raison-d-etra-recap]
 Have a purpose and communicate it.
 
 == Be present and communicate
@@ -424,58 +425,63 @@ And it's *easy*, so there's just no reason to not do it.
 //[slide#bartosz]
 I've been working with OSS communities for a long time.
 But I could never quite put my finger on why one community works and another doesn't.
-What is it all about?
-//What is the true meaning of community?
+What makes it tick?
 ...until right here in Antwerp during Devoxx 2013.
 
-Two years earlier, Aslak Knutsen and I were walking along with a newcomer to the Arquillian community, Bartosz Majsak.
-We arrived at the restaurant where we were going to eat and asked him to join us.
-He said, “I have to go. I'm not a speaker like you guys.” and walked off.
-Aslak and I looked at each other with a confused look, then immediately agreed that just wasn't going to fly and Aslak ran and got him.
-He was just as much a part of Arquillian as either of us.
+Two years earlier, Aslak Knutsen and I were walking with a newcomer to the Arquillian community, Bartosz Majsak.
+We arrived at a restaurant where we were going to eat dinner and we asked him to join us.
+He said, “No. I have to go. I'm not a speaker like you guys so I probably can't join you.” and walked off.
+Aslak and I looked at each other with a bewildered look, instinctually agreed that wasn't going to fly and Aslak chased after him and pulled him back.
+Bartosz was just as much a part of Arquillian as either of us.
 
-Fast-forward two years and Bartosz had become a speaker at Devoxx. A Devoxxian.
-//He was sharing...
-We were all rooming together, but left the apartment at different times that morning (why Bartosz wasn't with us when we left the apartment is another story you can ask me about later).
-I attended another talk before Bartosz's and got held up afterwards chatting with someone in the corridor, so I ended up being a few minutes late getting over to Bartosz's talk.
+Fast-forward two years and Bartosz had become a speaker at Devoxx.
+A Devoxxian.
+He was speaking about getting involved in open source.
+
+That year, we were all rooming together, but left the apartment at different times the morning of his talk.
+(Why Bartosz wasn't with us when we left the apartment is a story for Bier Central).
+I had attended another talk before Bartosz's and got held up afterwards chatting with someone in the corridor, so I ended up being a few minutes late getting over to Bartosz's talk.
 As I entered the room, the room monitor looked at me shaking her head.
 //[slide#bartosz-devoxx]
 I had to step over people standing in the entranceway to get close enough to see Bartosz on stage.
 The theatre was completely packed.
 
-Two years earlier, Bartosz viewed himself as just someone in the crowd, not worthy so to speak, and now, as a leader of the Arquillian project, I could barely get into the room to see him speak.
-We believed in him before he was ready to believe in himself and now he had become a star.
+Two years earlier, Bartosz viewed himself as just another person in the crowd, not worthy of note, and now, as a leader of the Arquillian project, I could barely get into the room to see him speak.
+We believed in him before he was ready to believe in himself and he had become a celebrity.
+
 But that's not even the most amazing part.
 The focus of his talk was to encourage others to get involved with open source because it can change your life and career, as it did for him.
+//[slide#bartosz-slide]
 About half way through the talk, he put up names and faces of other open source contributors on the screen and he said, "these are the people that inspire me".
-But those people weren't the leaders of the project, they were other community members.
-//! Amazingly, even though he only had a “quicky” time slot (15 minutes), he gave up the stage for the last 5 minutes of the presentation to give a developer working on Mifos (an open source microfinance platform for developing countries) to talk about his project. 
+But those people weren't the project leaders, they were other community members.
+
 He went even a step further.
-Despite only having a quicky time slot, which run for 15 minutes, he turned over the stage to a developer he had met at the hackergaten earlier in the week to talk about the project he works on.
+//! ...to give a developer working on Mifos (an open source microfinance platform for developing countries) to talk about his project. 
+Despite only having a “quicky” time slot, which run for 15 minutes, he turned over the stage to a developer he had met at the Hackergaten earlier in the week to talk share his work.
 Rather than use the stage to talk about himself, Bartosz had chosen to shine light on the work of others.
 I was totally choked up.
 
-I realized that this is what makes community work.
+At that moment I realized this is what makes community work.
 This is what makes it grow.
-And this is what it's all about.
-Directing the limelight and shining light on people that should be recognized, but aren't yet.
-Making opportunities for others.
+Direct limelight on people that should be recognized, but aren't yet.
+Make opportunities for others.
+Bartosz had responded to the call to grow the community and become a reflector of that light.
 
-Bartosz had responded to the call to grow the community and become a mirror.
-
-What's good for the community members is good for the project.
+//[slide#no-evil]
 In 2012, Bartosz received a JBoss Community Award for his work on Arquillian and last year became the community manager for Arquillian.
 Today, Alex Soto, one of the faces on Bartosz' slide, is the lead of the Arquillian Cube project and co-author of Arquillian in Action and also a Devoxxian.
+What's good for the community members is good for the project.
 By passing on these opportunities, you invest in the project's future and build a devoted community.
-And it starts with the project leadership.
+It starts with the project leadership and scales as the community grows.
 
 // FIXME consolidate with some of the points at the end of the Bartosz story
 Recognition is something to be passed on.
 Each leader has recognition to share.
-They should act as a mirror (or mirror ball).
-Reflect the light on the people that deserve it.
+Be a mirror.
+//They should act as a mirror (or mirror ball).
+Reflect light on the people that deserve it.
 //Connect the people recognizing w/ the people to be recognized.
-In doing so, they orchestrate the growth of the community.
+In doing so, you orchestrate the growth of the community.
 //Creates an special atmosphere
 “He who receives an idea from me, receives instruction himself without lessening mine; as he who lights his [candle] at mine, receives light without darkening me.” -- Thomas Jefferson
 //”That ideas should freely spread from one to another over the globe...seems to have been peculiarly and benevolently designed by nature.” -- Thomas Jefferson
