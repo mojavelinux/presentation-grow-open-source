@@ -1,12 +1,11 @@
 ////
 .TODO
 * Ask! (for participation / help)
-* consolidate ending
-* add "choose civility points (or a selection of them) into transcript
+* consolidate ending (in progress)
 * made revisions to Bartosz story to make it more conversational
 * review commented lines (put asterisk in front of candidate dialog for inclusion)
-* Faces, faces, faces
-* builds resilience in community
+* Faces, faces, faces (earlier than at the end?)
+* it builds resilience in community
 * license can have a big influence on the culture; or not
 
 * Build the story you want your users to tell.
@@ -49,19 +48,25 @@ endif::[]
 == Introduction
 
 //!SLIDE title
-Open Source is a no-brainer.
+Open Source is a no-brainer (man).
 
 //!SLIDE brain-creativity
-Actually, it's not.
-It requires quite a bit of brain power.
-Creating Open Source software and building a community around it is hard and doesn't come for free.
-In fact, it's a daily duty.
+Actually, that's false.
+//! It requires quite a bit of brain power.
+//! Creating Open Source software and building a community around it is hard and doesn't come for free.
+Doing open source well and growing a successful ecosystem around it requires a lot of brain power.
+It's hard and it doesn't come for free.
+Responding to questions.
+Reviewing issues & code changes.
+Organizing events.
+Motivating people.
+It's a daily duty.
 It takes investment, both in the form of time and money.
 But with all things that produce value, it's totally worth doing.
 
 Open Source is the best model we've found to produce software.
-If you do it well, you have a lot to gain.
 Do it poorly and what you unleash onto the world amounts to little more than a code dump.
+Do it well and your project will grow and develop a life of its own.
 
 So how do you do it?
 How do you give your project that spark?
@@ -69,9 +74,10 @@ How do you make it grow?
 
 //SLIDE! Arquillian invasion backdrop
 I've cultivated several very successful open source communities on sparse budgets.
-Each experience has taught me lessons that I'm sharing with you today.
-I hope you'll be able to use this advice to make your community building efforts wildly successful.
-After all, not many companies do (OSS well).
+Each experience has taught me lessons I want to share with you today.
+I've waited a long time to tell this story.
+I hope you'll be able to use this advice to make your community building efforts wildly successful and stand out from the crowd.
+//After all, not many companies do (OSS well).
 
 //Above all, people are attracted to ”a shared purpose that is clearly understood”, so let's start there.
 //That's what gets people out of bed in the morning.
@@ -82,7 +88,7 @@ After all, not many companies do (OSS well).
 == Have a purpose
 // criteria for success?
 
-How many projects have you come across that make you go, “What the heck is this for?”
+How many projects have you come across that make you think, “Uh, what the heck is this for?”
 _Don't be that project._
 //What's your purpose?
 Find your purpose.
@@ -90,7 +96,7 @@ Why does your project exist?
 
 //!SLIDE Raison d'être bottle
 Perhaps it goes without saying, but if you want to grow, you need to have an effort that's worth joining.
-And people need to know what it is.
+And people need to know where you're headed.
 //A purpose.
 People need a change they can believe in.
 A sense of purpose.
@@ -121,7 +127,7 @@ They participate to learn from each other and grow.
 They work for fulfillment...at least your audience does.
 
 You need to craft a call to adventure for people.
-Your mission becomes a story; your story.
+Your mission becomes a story; _your_ story.
 It shapes the culture of your community.
 It serves as a filter to help you decide what to do, what not to do and who your audience even is.
 
@@ -132,28 +138,29 @@ Dogfish Head, for example, has a great tagline:
 Off-centered ales for off-centered people.
 ""
 
-Notice how the tagline communicates a purpose (what they want to achieve), a filter (what to do, what not do) and an identity (who they target).
+Notice how the tagline communicates a purpose (what they want to achieve), a filter (what to do, what not do) and an identity (who they are).
 That's the stuff that gets people behind you, gets them involved and gives you focus.
-It's a call to adventure.
-Without it, you don't get noticed.
-People just pass you by.
+//It's a call to adventure.
+//! Without it, you don't get noticed.
+//! Don't let people just pass you by.
+Don't let people just pass you by.
+Get noticed.
 //Without a purpose and a future, you have no project; people abandon a sinking ship
 //It also helps you weather changes and shifts.
 Have a purpose and communicate it.
 
 == Be present and communicate
 
-. Communicate your purpose
-. Be responsive & listen
-. Don't be l33T (don't alienate them)
-. Be transparent
+//. Communicate your purpose
+//. Be responsive & listen
+//. Don't be l33T (don't alienate them)
+//. Be transparent
 
 [discrete]
 === Communicate your purpose
 
 Brilliant software alone isn't enough to get people to act.
 You need to communicate your idea.
-Only ideas that spread win.
 And your idea will be judged--at least initially--on how well you perform that communication.
 
 "In a society that values speech free from esoteric, incomprehensible bullshit, speaking in jargon carries penalties."
@@ -161,23 +168,25 @@ And your idea will be judged--at least initially--on how well you perform that c
 
 Your message needs to be organized, authentic and empathetic.
 Plant the idea in their minds and in their hearts.
+Only ideas that spread win.
 
-To build a community, you need to communicate your purpose, but you also need to show up and interact with them.
+To bring them in, you need to show up and interact with them.
+//To build a community, you need to communicate your purpose, but you also need to show up and interact with them.
 //You can't build a community if you don't show up, interact with them & communicate your purpose.
 
 [discrete]
 === Be responsive and listen
 
-No activity signals a dead project.
-And every project starts out as a ghost town.
-People kick things, they show aggression towards things, that they think are dead.
-And that's not good for growth.
-The way to avoid this from happening is to be constantly be engaging people.
+Every project starts out a ghost town.
+And no activity signals a dead project.
+People kick things--show aggression towards things--they think are dead.
+That's not good for growth.
+The way to generate activity is to constantly be engaging people.
 Communicate with the community.
 Be on.
 Be everywhere.
 Communicate openly to a fault.
-Take the time to meet with them; get to know them.
+Take the time to meet with them; get to know the individuals.
 //I make it a point to know the names as well as the usernames of all my community members.
 Make them feel like you have all the time in the world for them...even if you don't.
 Make each person the center of your attention when you're interacting with them.
@@ -188,8 +197,7 @@ Communication is the water that your project and your community needs to grow.
 It's the synapse of OSS.
 Make communication flow readily throughout your project.
 
-Communication is also 2-way.
-LISTEN TO THEM!
+Communication is 2-way, so LISTEN TO THEM!
 They hold the secret to what can make you great.
 That's because the intelligence of a project is in the collective thinking.
 Power in numbers.
@@ -207,8 +215,8 @@ To realize that power, communication must be easy; and it's even better if it is
 
 // QUESTION move power in numbers here?
 
-*Show that you want them.
-Show that you actually _want_ to grow.*
+Show that you want them.
+Show that you actually _want_ to grow.
 Make the communication personal.
 //But don't underestimate the power of the persontal interactions, esp face-to-face.
 For instance, the effect of a single face-to-face meetup can last for years.
@@ -216,11 +224,12 @@ It's individuals that add up to make a community.
 Lack of information?
 Don't let it create barriers between you and them.
 Missing or weak documentation is a major barrier for the success of the project and growth of the community.
+//Make the README really be worth reading.
 Respect their time & space by giving them the information they need.
 Be glad that they came and shared an irretrievable slice of their life with your project.
 //Check your ego at the door.
 
-//SLIDE! +1
+//[slide#plus-one]
 Communication doesn't necessarily mean lots of words.
 Communication can be terse and still be very effective.
 That's power of the +1.
@@ -260,6 +269,7 @@ That's the quickest way to cause people to disassociate.
 [discrete]
 === Recap
 
+//[slide#show-up-communicate]
 If you want to grow, you must connect with them.
 To connect with them, you need to communicate with them and be present.
 Without communication, it's just us vs them.
@@ -270,6 +280,7 @@ With communication, you draw them in, get them to join your tribe.
 == Make people feel welcome
 // Optimize for the first touch
 
+//[slide#welcome-mat]
 Make people feel welcome.
 Be all inclusive.
 By making everyone feel welcome, you create a safe place for _anyone_ interested in the project to come, contribute, share their diverse talents and to be creative.
@@ -277,9 +288,10 @@ By making everyone feel welcome, you create a safe place for _anyone_ interested
 The first touch is them testing you.
 They want to see how you respond and whether the community is a place they want to be.
 You don't want to fail this test.
+
+//[slide#questions-equal-interest]
 People are going to have questions, lots of them.
-//!SLIDE ??? == Interest
-Questions == interest.
+? ? ? == interest.
 Great questions (sometimes the best ones) look like dumb questions at first glance.
 (Maybe a question that needs to be asked. Maybe even intentional).
 No matter how silly that first question seems or how trivial the contribution, remember they could become the next leader of the project.
@@ -287,27 +299,34 @@ Or they could go contribute to some other project instead.
 If their first touch is met with aversion or ridicule, the community will fail their test and they will withdraw.
 You drove them away.
 
-//!SLIDE Contributors, Please Use Other Front Door
+//[slide#front-door-sign]
 //In order for your project to grow, people have to make it through the entryway of your project.
 How many times have you come into a project and been told you started at the wrong place?
 People rarely come through the main entrance.
 The issue tracker, for example, is one of the most frequently used entry points into your project.
-And the README? It should really be worth reading.
+//And the README? It should really be worth reading.
+Every entrance, even the side doors, need to provide the full welcome mat experience.
+Never forget to welcome them.
 You never get a second chance to make a first impression.
 In OSS, first impressions of your project matter a lot.
+Optimize that first touch.
 
+////
 // FIXME isn't this redundant?
-Newcomers only going to have so much fuel in the tank to make that initial contribution, so you need to lower barriers as much as possible.
+Newcomers only have so much fuel in the tank to make that initial contribution, so you need to lower barriers as much as possible.
 Lower the barriers to entry (both for users and contributors); then lower them again, then again.
 Every entrance, even the side doors, need to provide the full welcome mat experience.
 Never forget to welcome them.
 Optimize that first touch.
+////
 
+//[slide#always-be-welcoming]
 You should constantly be looking for newcomers.
 Growth is when the number of people coming in exceeds the number going out.
 That's why the first touch is so critical.
 It should always be happening.
 
+//[slide#formation]
 Formation and growth is a passionate ordeal, so people often come in “hot.”
 Take this as a good sign for your project.
 People are probably more frustrated than mad.
@@ -325,7 +344,7 @@ Do your best to turn their strengths into yours.
 [discrete]
 === Choose civility
 
-Keep in mind when you're interacting with people...
+When you're interacting with people...
 
 "You never lose points for professionalism."
 -- Guy Martin
@@ -343,13 +362,20 @@ If the environment is closed or hostile, they'll leave.
 If the environment is comfortable and makes them feel good, they'll not only stay, they'll invite others to join.
 //and they'll do their most creative work.
 
+//[slide#choose-civility]
 Promote diversity of all varieties in your community.
 A Code of Conduct is advisable here.
 People participate in open source for different reasons and at different levels.
 You should know why each person participates, but remember there's no one right reason.
 What matters is why they stay, why they choose to identify as members of your community.
 Communities are in fact a network of (very) autonomous individuals.
-//Remember that.
+
+.Choose civility principles
+* Be inclusive
+* Acknowledge others; give praise
+* Respect other people's opinions, time & space
+* Give constructive criticism
+* Assume the best
 
 The tone you set for the community determines the fate of the community's health.
 Put your best attitude forward.
@@ -359,6 +385,7 @@ Put your best attitude forward.
 == Recognize contributors and acknowledge their work
 // faces, faces, faces screenshot
 
+//[slide#thank-them]
 Once you receive a contribution, acknowledge it!
 Being thanked feels good.
 Every time.
@@ -369,14 +396,14 @@ Express your appreciation _generously_ and _sincerely_.
 You should be doing it so much you might as well put a key on your keyboard for it.
 A sign of doing it right is that you'll know the usernames of all your community members by heart.
 
+//[slide#i-see-you]
 Let contributors know you see them;
 that you appreciate their work;
 that it matters to have them around.
 There are no secrets here.
-Even with the cards face up on table this still works.
+//Even with the cards face up on table this still works.
 When you appreciate them and their work, contributors will choose to stay and repeat the virtuous cycle.
 
-//SLIDE! “I see you.”
 [verse]
 I see you.
 I recognize your effort.
@@ -390,11 +417,11 @@ And it's *easy*, so there's just no reason to not do it.
 
 //not doing this can make the experience detrimental for the contributor, and detrimental to your growth
 
-//SLIDE! Bartosz@Devoxx (once we get to that part in the story)
-.Bartosz story
+== Bartosz story
 //http://blog.bartoszmajsak.com/blog/2013/11/24/my-devoxx-experience/
 // moral: believe in them before they are prepared to believe in themselves
-****
+
+//[slide#bartosz]
 I've been working with OSS communities for a long time.
 But I could never quite put my finger on why one community works and another doesn't.
 What is it all about?
@@ -410,8 +437,9 @@ He was just as much a part of Arquillian as either of us.
 Fast-forward two years and Bartosz had become a speaker at Devoxx. A Devoxxian.
 //He was sharing...
 We were all rooming together, but left the apartment at different times that morning (why Bartosz wasn't with us when we left the apartment is another story you can ask me about later).
-I attended another talk before Bartosz's and was chatting with someone in the corridor afterwards, so I was a few minutes late getting to Bartosz's talk.
-As I entered the room, the room monitor looked at me shaking her head and mumbled, it's pretty full in there (good luck finding a seat).
+I attended another talk before Bartosz's and got held up afterwards chatting with someone in the corridor, so I ended up being a few minutes late getting over to Bartosz's talk.
+As I entered the room, the room monitor looked at me shaking her head.
+//[slide#bartosz-devoxx]
 I had to step over people standing in the entranceway to get close enough to see Bartosz on stage.
 The theatre was completely packed.
 
@@ -421,7 +449,9 @@ But that's not even the most amazing part.
 The focus of his talk was to encourage others to get involved with open source because it can change your life and career, as it did for him.
 About half way through the talk, he put up names and faces of other open source contributors on the screen and he said, "these are the people that inspire me".
 But those people weren't the leaders of the project, they were other community members.
-Amazingly, even though he only had a “quicky” time slot (15 minutes), he gave up the stage for the last 5 minutes of the presentation to give a developer working on Mifos (an open source microfinance platform for developing countries) to talk about his project. 
+//! Amazingly, even though he only had a “quicky” time slot (15 minutes), he gave up the stage for the last 5 minutes of the presentation to give a developer working on Mifos (an open source microfinance platform for developing countries) to talk about his project. 
+He went even a step further.
+Despite only having a quicky time slot, which run for 15 minutes, he turned over the stage to a developer he had met at the hackergaten earlier in the week to talk about the project he works on.
 Rather than use the stage to talk about himself, Bartosz had chosen to shine light on the work of others.
 I was totally choked up.
 
@@ -438,7 +468,6 @@ In 2012, Bartosz received a JBoss Community Award for his work on Arquillian and
 Today, Alex Soto, one of the faces on Bartosz' slide, is the lead of the Arquillian Cube project and co-author of Arquillian in Action and also a Devoxxian.
 By passing on these opportunities, you invest in the project's future and build a devoted community.
 And it starts with the project leadership.
-****
 
 // FIXME consolidate with some of the points at the end of the Bartosz story
 Recognition is something to be passed on.
@@ -476,18 +505,20 @@ Believe in them before they are prepared to believe in themselves.
 One of the best ways to show appreciation to someone is to trust them.
 That means giving them responsibility.
 
-//SLIDE! Gripping edge of pool
-OSS is about _not_ doing it alone.
-Ask yourself if you're a ”wallflower” project.
-//Do you have a “wallflower” project?
-As the project and its community grows, you'll need to distribute the load.
-That means you'll need to let go of control.
+//[slide#pool-creeper]
+OSS is about you _not_ doing it alone.
+Are you a ”wallflower” project?
+As the project matures, and if you want it to grow, you'll need to distribute the load.
+That means letting go of control.
+Letting go of the wall.
 Otherwise, you'll be confined to going only where the edge can take you.
-//If you don't move away from the wall, then it's not really open source; you don't benefit from it being open source.
 I know that sounds scary.
-But this is your chance to share opportunity with contributors and make them more autonomous.
-And there are ways to make it much less scary.
+But if you don't move away from the wall, that's not really open source.
+And you won't benefit from it being open source.
+This is your chance to share opportunity with contributors and make them more autonomous.
 
+//[slide#automate-liberally]
+There are ways to make this much less scary.
 Leverage automation to be there when you can't.
 I don't do it enough.
 You don't do it enough.
@@ -503,36 +534,40 @@ Make the computer do the work for you.
 Never let it be idle.
 Why should it?
 
+//[slide#empowerment-quote]
 With automation in place, you can start to empower people to take responsibility.
 “Empowerment of individuals is a key part of what makes open source work.”
-Promote contributors to leaders.
+*Promote contributors to leaders.*
 Trust creates leaders, and leaders become heroes.
 Everyone brings a unique skillset to the table.
 The more autonomous the community, the more the unique skills are magnified and compounded.
 Find the right people to lead each segment of the project and/or community and thus make it sustainable.
 
 How do you get them to step up?
+*Just ask!*
 
 Every athlete you can think of has had a coach.
 Coaches help us believe in ourselves before we are ready to.
 They are our mentor.
 As a community leader, you are the community's mentor.
 Encourage them.
-"Encouragement is oxygen for the soul."
+//"Encouragement is oxygen for the soul."
 Guide them.
 Nudge them.
 Help them become productive members of the community.
 Then, show them that what they do matters and empower them.
-Faces, faces, faces!
+//Faces, faces, faces!
 
 Delegating brings you relief and lets you escape the bus factor.
 It not only frees up time, but it welcomes new ideas and growth.
 
+//[slide#empower]
 //!SLIDE project stuck behind display case, breaking out
 In fact, no other way is sustainable.
 //do you have a look don't touch scenario?
 Get your project out from behind the display case and into the hands of contributors.
 Give them ownership.
+Empower!
 //its a critical part of being a good citizen of open source.
 
 //== Celebrate and share the prosperity
@@ -540,6 +575,7 @@ Give them ownership.
 // sharing is caring
 // *Reinvest!*
 
+//[slide#rating-stars]
 Success.
 That's the business you're in.
 And that's the business you should be in for your community.
@@ -561,18 +597,6 @@ It builds your reputation, validates the technology and instills confidence in y
 In a way, a large, healthy community is like a ton of positive reviews on a product. It feels safe for people to adopt.
 By doing OSS well, you stand to gain _trust_, _loyalty_ & _growth_.
 
-////
-.Vituous cycle of OSS; all roads point to you; anyone can play any role
-      |
-      v
- --> you <--
-   /  ^
-  |   |
-  |
-  \ 
-   ~-> anyone associated with you
-////
-
 //you must then be a responsible citizen of open source
 //fulfill your side of the contract & get a contract extension
 
@@ -584,9 +608,12 @@ To benefit from ideas that come from left field.
 That's where your future is.
 //Don't ignore your positioning
 
+//[slide#fade-from-memory]
 It's going to be tempting when you become successful to forget about the community, leave them behind or take them for granted.
 But you should be very careful to never let that happen.
 Resist the urge to be above the community.
+// IDEA: back to the future fading image
+Don't become an amorphous blob to them.
 You can never forget about them because they are part of it.
 //You've given them ownership.
 
@@ -594,6 +621,7 @@ You can never forget about them because they are part of it.
 //Before, your world was just about you.
 //But then you're responsible for another human life and they'll always be a part of everything you do.
 
+//[slide#faces-faces-faces]
 It's also part of being a good citizen of open source and upholding your part of the contract.
 They helped you create the software.
 They have ownership.
@@ -602,6 +630,7 @@ They have a seat at the table.
 Include them.
 Maybe not any one individual, but certainly the community as a whole.
 
+//[slide#share-prosperity]
 Sharing prosperity builds the ethos that enables the project to be sustainable long term.
 Watch how you socialize at events like this one.
 You should engage with newcomers like Bartosz once was as well as those that are seasoned.
@@ -610,9 +639,10 @@ You should engage with newcomers like Bartosz once was as well as those that are
 If you share your success--pass it on--community members from one generation pass on their success to the next, just like Bartosz has done.
 
 In summary, you should always be *reinvesting* in the community.
-If you're a company that uses open source, for heaven sakes, let your developers work on it.
-“the best developers want to work on open code: to hire quality developers, give them an open source outlet”
+//If you're a company that uses open source, for heaven sakes, let your developers work on it.
+//“the best developers want to work on open code: to hire quality developers, give them an open source outlet”
 
+//[slide#virtuous-cycle]
 The virtuous cycle that grows open source:
 
             Inspire
@@ -622,20 +652,18 @@ The virtuous cycle that grows open source:
             \ __ /
             Encourage (Ask)
 
-//recruit: beer
-//mentor: university
-//encourage: thumbs up
-//empower: graduation-cap or trophy or rocket or hand-o-up
-
-      ↓
-   ⇾ you ⇽
-   /  ↑
-  |
-   \ ⇾ anyone associated with you
+//all roads point to you; anyone can play any role
+//
+//      ↓
+//   ⇾ you ⇽
+//   /  ↑
+//  |
+//   \ ⇾ anyone associated with you
 
 You want contributors to be successful because they choose to join your community, and you want others to see that.
 Make them successful.
 Only then can and will they make you successful.
+That's how you gain devotion.
 That's how you grow.
 //esp people that can't or work for your company; being part of the community gives you a way to share the prosperity.
 //Better jobs, better pay, more leadership, promotions, more power
@@ -644,6 +672,7 @@ That's how you grow.
 //Be their advocate.
 //You know how your contributors work better than most, so you're in a great position to tell others about their skill set, work ethic and passion.
 
+//[slide#thank-you]
 _Thank you and good luck.
 Namaste._
 
