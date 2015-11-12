@@ -529,8 +529,8 @@ section.poster > img {
   transform: translateX(-50%) translateY(-50%);
 }
 section.motion.bespoke-active img {
-  -webkit-transition: all 8s ease-in-out;
-  transition: all 8s ease-in-out;
+  -webkit-transition: all 10s ease 1s;
+  transition: all 10s ease 1s;
   max-width: 110%;
   max-height: 110%;
 }
