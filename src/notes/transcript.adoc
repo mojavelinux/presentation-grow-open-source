@@ -88,7 +88,7 @@ I hope you'll be able to use this advice to make your community building efforts
 // criteria for success?
 
 //[slide#why]
-icon:tv[] Perhaps it goes without saying, but if you want to grow, you need to have an effort that's worth joining.
+icon:tv[] Perhaps it goes without saying, but if you want to grow, you gotta have an effort that's worth joining.
 
 How many projects have you come across that make you think, “Uh, what the heck is this for?”
 _Don't be that project._
@@ -98,7 +98,7 @@ Why does your project exist?
 
 //[slide#raison-d-etre-label]
 icon:tv[] People need to know where you're headed.
-People need a vision they can believe in.
+They need a vision they can believe in.
 A sense of purpose.
 A rally call.
 A raison d'être.
@@ -108,7 +108,7 @@ They want to be able to achieve something bigger than what they can achieve by t
 
 //[slide#amp]
 icon:tv[] Open Source is created by people.
-To grow Open Source, you need to understand what drives people.
+So to grow Open Source, you need to understand what motivates people.
 You need to AMP them up.
 In his book Drive, Dan Pink identifies three key factors that drive people.
 
@@ -124,16 +124,16 @@ They just aren't working for direct financial gain, the traditional model.
 They're driven by something else.
 People participate to do what they enjoy far away from what they don't.
 They participate to learn from each other and grow.
-They work to exchange ideas.
+They value the exchange of ideas.
 They work for personal fulfillment...at least your audience does.
 
-You need to craft a call to adventure for people.
+You need to craft a call to adventure for the community, your hero.
 Your mission becomes a story; _your_ story.
 It shapes the culture of your community.
-It serves as a filter to help you decide what to do, what not to do and who your audience even is.
+It serves as a filter to help you decide what to do, what not to do and who your audience is.
 
 //[slide#dogfish-head-slogan]
-icon:tv[] Dogfish Head, for example, has a great tagline:
+icon:tv[] Dogfish Head has this fantastic tagline:
 
 ""
 Off-centered ales for off-centered people.
@@ -149,7 +149,7 @@ Get noticed.
 //Without a purpose and a future, you have no project; people abandon a sinking ship
 //It also helps you weather changes and shifts.
 //[slide#raison-d-etra-recap]
-Have a purpose and communicate it.
+Have a purpose and then communicate it.
 
 == Be present and communicate
 
@@ -172,10 +172,10 @@ And your idea will be judged--at least initially--on how well you perform that c
 -- Carmine Gallo
 
 //[slide#add-readme]
-icon:tv[] Your message needs to be organized, authentic and empathetic.
+icon:tv[] So your message needs to be organized, authentic and empathetic.
 Plant the idea in their minds and in their hearts.
 Help people understand.
-Only ideas that spread win.
+Because only ideas that spread win.
 
 //To build a community, you need to communicate your purpose, but you also need to show up and interact with them.
 //You can't build a community if you don't show up, interact with them & communicate your purpose.
@@ -189,7 +189,7 @@ To bring them in, you need to show up and interact with them.
 icon:tv[] Every project starts out a ghost town.
 And no activity signals a dead project.
 People kick things--show aggression towards things--they think are dead.
-That's not good for growth.
+And that's not good for growth.
 
 //[slide#consistent-activity]
 icon:tv[] The way to generate activity is to constantly be engaging people.
@@ -202,7 +202,7 @@ Take the time to meet with them; get to know the individuals.
 Make them feel like you have all the time in the world for them...even if you don't.
 Make each person the center of your attention when you're interacting with them.
 //When you connect with them, they will give you the benefit of the doubt.
-(And yes, you'll need to work at it).
+(And yes, you're going to need to work at it).
 
 //[slide#synapse]
 icon:tv[] Communication is the water that your project and your community needs to grow.
@@ -213,7 +213,7 @@ Communication is 2-way, so LISTEN TO THEM!
 They hold the secret to what can make you great.
 That's because the intelligence of a project is in the collective thinking.
 Power in numbers.
-To realize that power, communication must be easy; and it's even better if it is contextual (e.g., GitHub issues).
+To realize that power, communication must be easy; even better if it is contextual (e.g., GitHub issues).
 //...because you can have a lot of little discussions without filling up everyone's inbox; allows you to communicate more
 
 //[slide#communication-over-cleverness]
@@ -225,7 +225,7 @@ To realize that power, communication must be easy; and it's even better if it is
 === Don't be l33T
 // not holding information hostage
 
-Show that you want them.
+Show that you want them there.
 Show that you actually _want_ to grow.
 Make the communication personal.
 Respect their time & space by giving them the information they need.
@@ -253,7 +253,8 @@ Communication can be terse and still be very effective.
 That's power of the +1.
 //:beers: also works
 It not only says, “I'm present and I support this,” it also provides encouragement, which we'll talk about a bit later.
-You can also can communicate simply through commits of docs and code.
+
+You can also communicate simply through commits of docs and code.
 // SLIDE IDEA: screenshot partial of "last commit X days ago"
 All this externally signals, “this project is being maintained.”
 
@@ -268,15 +269,15 @@ Be real.
 Be human.
 Otherwise, they'll know.
 Trust me, they'll know.
-If you aren't honest, transparent and frank, you'll be dead to them.
+If you aren't honest, transparent and frank, you're dead to them.
 
 //Don't bore (or distract) the community with discussion of your product.
 //It creates us vs them scenario.
 //And never treat community as just another marketing channel.
 
+Leave discussions about your product out of open source development.
 Contributions should be for the good of the project, not self-centered on your product needs.
 Otherwise, the changes are not in good faith.
-Leave discussions about your product out of open source development.
 
 If you're working for a company that sponsers an OSS project, don't let yourself get lost on the inside.
 And do *not* have internal meetings to decide the fate of OSS.
@@ -289,10 +290,10 @@ That's the quickest way to cause people to disassociate.
 //[slide#show-up-communicate]
 icon:tv[] If you want to grow, you must connect with them.
 To connect with them, you need to communicate with them and be present.
-Without communication, it's just us vs them.
-They remain outsiders.
+Without communication, they remain outsiders.
+(Us vs them).
 With communication, you draw them in, get them to join your tribe.
-// SLIDE IDEA: Tomitribe?
+*(Point to t-shirt)*
 
 == Make people feel welcome
 // Optimize for the first touch
@@ -311,6 +312,7 @@ icon:tv[] People are going to have questions, lots of them.
 ? ? ? == interest.
 Great questions (sometimes the best ones) look like dumb questions at first glance.
 (Maybe a question that needs to be asked. Maybe even intentional).
+
 No matter how silly that first question seems or how trivial the contribution, remember they could become the next leader of the project.
 Or they could go contribute to some other project instead.
 If their first touch is met with aversion or ridicule, the community will fail their test and they will withdraw.
@@ -415,7 +417,7 @@ People don't fill up on gratitude.
 No one says, “I don't need any more thanks, I'm good.”
 Express your appreciation _generously_ and _sincerely_.
 You should be doing it so much you might as well put a key on your keyboard for it.
-A sign of doing it right is that you'll know the usernames of all your community members by heart.
+//A sign of doing it right is that you'll know the usernames of all your community members by heart.
 
 //[slide#i-see-you]
 icon:tv[] Let contributors know you see them;
