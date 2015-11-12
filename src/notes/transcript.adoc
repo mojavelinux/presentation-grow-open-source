@@ -1,10 +1,13 @@
 ////
 .TODO
+* Ask! (for participation / help)
 * consolidate ending
+* add "choose civility points (or a selection of them) into transcript
 * made revisions to Bartosz story to make it more conversational
 * review commented lines (put asterisk in front of candidate dialog for inclusion)
 * Faces, faces, faces
 * builds resilience in community
+* license can have a big influence on the culture; or not
 
 * Build the story you want your users to tell.
 * slide for "Be transparent"
@@ -338,7 +341,7 @@ At the most extreme, communication should be technically brutal but personally r
 If the environment is closed or hostile, they'll leave.
 (After all, they get enough politics at work).
 If the environment is comfortable and makes them feel good, they'll not only stay, they'll invite others to join.
-//and they'll  do their most creative work.
+//and they'll do their most creative work.
 
 Promote diversity of all varieties in your community.
 A Code of Conduct is advisable here.
@@ -364,7 +367,7 @@ People don't fill up on gratitude.
 No one says, “I don't need any more thanks, I'm good.”
 Express your appreciation _generously_ and _sincerely_.
 You should be doing it so much you might as well put a key on your keyboard for it.
-//A sign of doing it right is that you'll know the usernames of all your community members by heart.
+A sign of doing it right is that you'll know the usernames of all your community members by heart.
 
 Let contributors know you see them;
 that you appreciate their work;
@@ -501,7 +504,7 @@ Never let it be idle.
 Why should it?
 
 With automation in place, you can start to empower people to take responsibility.
-“empowerment of individuals is a key part of what makes open source work” -- Tim O'Reilly
+“Empowerment of individuals is a key part of what makes open source work.”
 Promote contributors to leaders.
 Trust creates leaders, and leaders become heroes.
 Everyone brings a unique skillset to the table.
@@ -515,13 +518,12 @@ Coaches help us believe in ourselves before we are ready to.
 They are our mentor.
 As a community leader, you are the community's mentor.
 Encourage them.
+"Encouragement is oxygen for the soul."
 Guide them.
 Nudge them.
 Help them become productive members of the community.
 Then, show them that what they do matters and empower them.
-
-"Encouragement is oxygen for the soul."
--- Unknown
+Faces, faces, faces!
 
 Delegating brings you relief and lets you escape the bus factor.
 It not only frees up time, but it welcomes new ideas and growth.
@@ -544,7 +546,6 @@ And that's the business you should be in for your community.
 Success is infectious.
 If people see their peers being celebrated and achieving success for participating in your community, they'll want to be a part of it too.
 The success of the community directly translates into the success of the project and, in turn, the success of your business.
-//Make them successful; only then can and will they make you successful; be passionate about this commitment
 //make or break
 
 These days, everyone's talking about being innovative.
@@ -614,12 +615,12 @@ If you're a company that uses open source, for heaven sakes, let your developers
 
 The virtuous cycle that grows open source:
 
-            Recruit
+            Inspire
               __
             /    \
    Empower |      | Recognize
             \ __ /
-            Encourage
+            Encourage (Ask)
 
 //recruit: beer
 //mentor: university
@@ -633,6 +634,8 @@ The virtuous cycle that grows open source:
    \ ⇾ anyone associated with you
 
 You want contributors to be successful because they choose to join your community, and you want others to see that.
+Make them successful.
+Only then can and will they make you successful.
 That's how you grow.
 //esp people that can't or work for your company; being part of the community gives you a way to share the prosperity.
 //Better jobs, better pay, more leadership, promotions, more power
