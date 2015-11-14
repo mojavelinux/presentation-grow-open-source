@@ -22,7 +22,15 @@ Attend this talk to learn everything you need to know about Open Source to make 
 //end::abstract[]
 --
 
-== View slides locally
+== View online
+
+https://www.youtube.com/watch?v=a_vqg-go8XI[Video]
+&middot;
+http://mojavelinux.github.io/presentation-grow-open-source/index.html[Slides]
+&middot;
+http://mojavelinux.github.io/presentation-grow-open-source/transcript.html[Transcript]
+
+== View locally
 
 This deck is a http://markdalgleish.com/projects/bespoke.js[Bespoke.js] presentation.
 To run it, first ensure you have the following installed:
