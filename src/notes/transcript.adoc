@@ -49,7 +49,7 @@ endif::[]
 == Introduction
 
 //[slide#title]
-icon:tv[] Open Source is a no-brainer (man).
+icon:tv[] Open Source...is a no-brainer.
 
 //[slide#brain-power]
 icon:tv[] Actually, that's false.
@@ -63,7 +63,7 @@ It's a daily duty.
 It takes investment, both in the form of time and money.
 But with all things that produce value, it's totally worth doing.
 
-Open Source is the best model we've found to produce software.
+Open Source is the best model for producing software.
 Do it poorly and what you unleash onto the world amounts to little more than a code dump.
 Do it well and your project will grow and develop a life of its own.
 
@@ -416,6 +416,7 @@ People don't fill up on gratitude.
 //There is no quota on appreciation.
 No one says, “I don't need any more thanks, I'm good.”
 Express your appreciation _generously_ and _sincerely_.
+*Be specific!*
 You should be doing it so much you might as well put a key on your keyboard for it.
 //A sign of doing it right is that you'll know the usernames of all your community members by heart.
 
