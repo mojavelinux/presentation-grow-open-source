@@ -6,6 +6,7 @@ var bespoke = require('bespoke'),
   fullscreen = require('bespoke-fullscreen'),
   hash = require('bespoke-hash'),
   nav = require('bespoke-nav'),
+  onstage = require('bespoke-onstage'),
   overview = require('bespoke-overview'),
   scale = require('bespoke-scale'),
   isWebKit = 'webkitAppearance' in document.documentElement.style;
@@ -17,6 +18,7 @@ var deck = bespoke.from('.deck', [
   fullscreen(),
   overview(),
   //bullets('li, .bullet'),
+  onstage(),
   hash(),
   cursor(),
   forms()
@@ -24,3 +26,4 @@ var deck = bespoke.from('.deck', [
 
 // expose deck API to applications
 window.deck = deck;
+window.bespoke = { deck: deck };

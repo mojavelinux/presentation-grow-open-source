@@ -10,6 +10,7 @@
     "bespoke-scale": "^1.0.1",
     "bespoke-forms": "^1.0.0",
     "bespoke-fullscreen": "^1.0.0",
+    "bespoke-onstage": "^1.0.0-dev",
     "bespoke-overview": "^1.0.4",
     "bespoke-cursor": "^1.0.0",
     "debowerify": "^0.7.1",
